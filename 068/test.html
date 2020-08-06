@@ -4,26 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bài tập Form</title>
     <style>
         .content {
             background-color: pink;
             width: 500px;
-            height: 700px;
+            height: 460px;
         }
         
         .left {
             display: block;
-            border: solid rebeccapurple;
-            width: 110px;
-            height: 600px;
+            width: 120px;
+            height: 460px;
             float: left;
         }
         
         .right {
-            border: solid red;
             width: 370px;
-            height: 600px;
+            height: 460px;
             float: right;
         }
         
@@ -31,7 +29,7 @@
             margin-left: -20px;
             width: 100px;
             height: 35px;
-            line-height: 50px;
+            line-height: 45px;
         }
     </style>
 </head>
@@ -44,16 +42,32 @@
                 <li>Họ và tên</li>
                 <li>Ngày sinh</li>
                 <li>Giới tính</li>
-                <li>Địa chỉ</li>
+                <li>Địa chỉ</li><br>
+                <li>Lớp</li>
+                <li>Email</li>
+                <li>Điện thoại</li>
             </ul>
         </div>
         <div class="right">
             <form action="" method="get">
                 <br><br><label><input type="text" name="n"></label><br><br>
-                <label><input type="text" name="e"></label><br>
+                <label><input type="text" name="e"></label><br><br>
 
-                <input type="radio" name="" id="">nam
-                <input type="radio" name="" id="">nữ
+                <input type="radio" name="male" id="">nam
+                <input type="radio" name="female" id="">nữ<br><br>
+
+                <textarea cols="40" rows="4" style="margin-top: 10px">dd</textarea><br>
+
+                <br><select name="class">
+                    <option>--Chọn lớp--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <br><br><input type="text" name="email">
+                <br><br><input type="text" name="phone" style="margin-top: 10px;">
+                <br><br><input type="submit" value="submit">
+                <input type="reset" value="reset"></BR>
             </form>
         </div>
     </div>
