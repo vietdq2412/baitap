@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ex1{
+            border: 5px outset black;
+            display: block;
+            width: 500px;
+            margin-left: 300px;
+        }
+
+        .hobby {
+            margin-top: -40px;
+            border: 5px outset red;
+            height: 120px;
+        }
+
+        .hobby label {
+                     width: 60px;
+                     height: 40px;
+                     line-height: 40px;
+                     margin-left: 65px;
+                 }
+
+        .hobby1{
+            color: red;
+            position: absolute;
+            margin-left: auto;
+        }
+        .hobby2{
+            position: absolute;
+            margin-left: 100px;
+        }
+        .hobby3{
+            position: absolute;
+            margin-left: 230px;
+        }
+
+        .text input{
+            margin-left: 20px;
+
+        }
+        .text p{
+            position: absolute;
+            margin-bottom: 10px;
+            color: blue;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="ex1">
+    <form action="index.html" method="get">
+        <div class="text">
+        <h1 style="text-align: center; background-color: red; color: white">SỞ THÍCH CỦA BẠN</h1>
+        <p>Họ và tên <input type="text" name="n"></p><br>
+        <br><p>Email <input type="text" name="n" style="margin-left: 43px"></p><br><br>
+
+        </div>
+        <p style="color: blue" ">Sở thích</p>
+        <div class="hobby">
+            <div class="hobby1">
+                <label> <input type="checkbox" name="sport">Thể thao</label><br>
+                <label><input type="checkbox" name="suweb">Lướt web</label><br>
+                <label> <input type="checkbox" name="trav">Du lịch</label><br>
+            </div>
+            <div class="hobby2">
+                <label></label><input type="checkbox" name="music">Âm nhạc</label><br>
+                <label><input type="checkbox" name="game">Chơi game</label><br>
+            </div>
+            <div class="hobby3">
+                <label></label><input type="checkbox" name="read">Đọc sách</li><br>
+                <label><input type="checkbox" name="movie">Điện ảnh</label><br>
+            </div>
+        </div>
+        
+    </form>
+</div>
+</body>
+
+</html>
